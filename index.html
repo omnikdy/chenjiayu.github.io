@@ -6,7 +6,7 @@
     <meta http-equiv="refresh" content="300">
     <link rel="shortcut icon" href="1.jpg">
     <link rel="stylesheet" type="text/css" href="1.css">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0">
     <title>omnipotent</title>
 </head>
 <body>
@@ -19,26 +19,23 @@
         <li><button  type="button" onclick="writing()" >性格</button></li><br><br>
         <li><button  type="button" onclick="writing()" >联系方式</button></li><br><br>
         <li><button  type="button" onclick="changeImage()" >性感写真集</button></li><br></div>
+
+
         
         <div id="content">
             <h1 style="color:#FE2E2E;"><pre>  陈佳雨相亲启事</pre></h1>
             <p ><pre>       ---给我带个对象,没有的话别回了</pre></p>
-            <img id="pic" border="0" src="2.jpg" alt="selfie " width=30% height=30% style="float:right" usemap="#university">
+            <img id="pic" border="0" src="2.jpg" alt="selfie " width=300 height=300 style="float:right" usemap="#university">
             <map class="tooltip" name="university">
                 <area shape="rect" coords="0,0,328,328" alt="Sun" href="https://www.hrbcu.edu.cn/">
                 <span class="tooltiptext">学校主页</span>
             </map>
             <br/>
-            
-            <table width="30%" border="0" cellspacing="0" cellpadding="0" align="left">
-                <tr>
-                  <td align="center" class="biaoti" height="60">基本数据</td>
-                </tr>
-            </table>
             <br/>
             <br/>
             <br/>
             <table width="30%" border="0" cellspacing="1" cellpadding="4" bgcolor="#cccccc" class="tabtop13" align="left">
+                <h1 align="left" class="biaoti" height="60" width="30%" border="0" cellspacing="0" cellpadding="0" align="left">基本数据</td>
              <tr>
                 <th>最高学历:</th>
                 <td>本科</td>
@@ -61,8 +58,8 @@
             </tr>
             </table>
             <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-            <div>
-            <p>
+    <div style="font-size: 1em;">
+    <p>
     <b>自我介绍：</b><br/>
 
     <b>工作学习：</b>01年出生，身高170cm，海外留学本科毕业，在传媒公司做宣传策划，收入稳定，偶尔加班，较少应酬。
@@ -75,10 +72,10 @@
     我内心渴望一份美好的感情，但不强求也不凑合，尊重他人和自己的情感，期待理想中的你能早日出现。
     在你还没有来到我身边之前，我会好好爱自己，照顾好自己，经营好自己，希望我早日遇到优秀的你，一起成长，共同努力！
 
-    如有兴趣，请留下联系方式： </p></div>
+    如有兴趣，请留下联系方式： </p>
 
-    <form id= "form" name="input" action="result.txt" method="get">
-        <fieldset>
+    <form id= "form" name="input" action="result.php" method="get">
+    <fieldset>
             <legend>Personal information:</legend>
         First name: <input type="text" name="firstname"><br>
         Last name: <input type="text" name="lastname"><br>
@@ -88,7 +85,7 @@
         <input type="reset" value="Reset">
     </fieldset>
     <p id="timer"></p>
-    </form></div>
+    </form></div></div>
         
         <div id="footer" style="background-color:#e0ffff;clear:both;text-align:center;">
         版权 © kdy.com</div>
